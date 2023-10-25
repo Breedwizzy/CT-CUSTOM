@@ -22,12 +22,13 @@
 
     <header>
         <div class='nav-updiv'>
-            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span>CALL
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span
+                class='call-us'>CALL
                 US
                 NOW!</span>&emsp;&emsp;&emsp;<span
                 class="highlighted">385.154.11.28.35</span>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;LOGIN&emsp;&emsp;<span
-                class='sign-out'>SIGNOUT</span>
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span
+                class='log-in'>LOGIN</span>&emsp;&emsp;<span class='sign-out'>SIGNOUT</span>
 
         </div>
         </br>
@@ -55,6 +56,8 @@
                 </li>
                 <li><a href="#">Title4</a></li>
                 <li class="active"><a href="#">Title5</a></li> <!-- Add the 'active' class here -->
+                <li><a href="#">Title6</a></li>
+                <li><a href="#">Title7</a></li>
             </ul>
             &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
             <span class="your-logo">YOUR</span><span class='logo-your'>LOGO</span>
@@ -85,8 +88,28 @@
     <span class='contact-us-sp'>CONTACT US</span>
     &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
     <span class='reach-us'>REACH US</span>
+    <div class="thick-line"></div>
+    <div class="second-line"></div>
+    </br></br>
 
+    <span class='Coalition-Skills'>Coalition Skills Test
+        535 La Plata Street</br>
+        4200 Argentina</br>
 
+        Phone: 385.154.11.28.35 </br>
+        FAx: 385.154.35.66.78
+
+    </span>
+    <div class='inputtttt'>
+        <form action="your_server_script.php" method="post">
+            <input type="text" id="myText1" name="myText"></br>
+            <input type="text" id="myText2" name="myText"> <input type="text" id="myText3" name="myText"></br>
+            <input type="text" id="myText4" name="myText"></br></br>
+            <input type="submit" id='submit-bb' value="Submit">
+            </br></br></br></br>
+        </form>
+    </div>
+    </br></br></br></br>
 
 
 
