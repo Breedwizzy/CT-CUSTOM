@@ -36,29 +36,32 @@
 
 
         <nav>
-
-            <ul>
+            <ul class="menu">
                 <li><a href="#">Title1</a></li>
                 <li><a href="#">Title2</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropbtn">Title3</a>
                     <div class="dropdown-content">
                         <a href="#">Submenu1</a>
-                        <a href="#">Submenu2</a>
+                        <a href="#" class="has-submenu">Submenu2</a>
+                        <ul class="sub-submenu">
+                            <li><a href="#">Submenu1</a></li>
+                            <li><a href="#">Submenu2</a></li>
+                            <li><a href="#">Submenu3</a></li>
+                        </ul>
                         <div class="sub-dropdown">
                             <a href="#">Submenu3</a>
-                            <div class="sub-sub-dropdown">
-                                <a href="#">Submenu1</a>
-                                <a href="#">Submenu2</a>
-                            </div>
                         </div>
                     </div>
                 </li>
                 <li><a href="#">Title4</a></li>
-                <li class="active"><a href="#">Title5</a></li> <!-- Add the 'active' class here -->
+                <li class="active"><a href="#">Title5</a></li>
                 <li><a href="#">Title6</a></li>
                 <li><a href="#">Title7</a></li>
             </ul>
+
+
+
             &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
             <span class="your-logo">YOUR</span><span class='logo-your'>LOGO</span>
         </nav>
@@ -92,14 +95,22 @@
     <div class="second-line"></div>
     </br></br>
 
-    <span class='Coalition-Skills'>Coalition Skills Test
-        535 La Plata Street</br>
-        4200 Argentina</br>
+    <span class='Coalition-Skills'>
+        Coalition Skills Test
+        535 La Plata Street<br>
+        4200 Argentina<br>
 
-        Phone: 385.154.11.28.35 </br>
+        Phone: 385.154.11.28.35 <br>
         FAx: 385.154.35.66.78
-
+        <br><br><br>
+        <div class="social-media">
+            <a href="#" class="facebook"><img src="facebook-icon.png" alt="Facebook"></a>
+            <a href="#" class="instagram"><img src="instagram-icon.png" alt="Instagram"></a>
+            <a href="#" class="twitter"><img src="twitter-icon.png" alt="Twitter"></a>
+            <a href="#" class="pinterest"><img src="pinterest-icon.png" alt="Pinterest"></a>
+        </div>
     </span>
+
     <div class='inputtttt'>
         <form action="your_server_script.php" method="post">
             <input type="text" id="myText1" name="myText"></br>

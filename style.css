@@ -205,9 +205,13 @@ samp {
 	/* Move the text up by 20px */
 	position: relative;
 	/* Set the position to relative to enable top property */
-	top: -55px;
+	top: -60px;
 	/* Adjust the top value to move the text up */
 }
+
+
+
+
 
 
 
@@ -256,7 +260,7 @@ samp {
 	/* Move the text up by 20px */
 	position: relative;
 	/* Set the position to relative to enable top property */
-	top: -55px;
+	top: -60px;
 	/* Adjust the top value to move the text up */
 }
 
