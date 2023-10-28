@@ -106,12 +106,12 @@ hr {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 
-pre {
+/* pre {
 	font-family: monospace, monospace;
 	/* 1 */
-	font-size: 1em;
-	/* 2 */
-}
+/* font-size: 1em; */
+/* 2 */
+/* } */
 
 /* Text-level semantics
 	 ========================================================================== */
@@ -120,24 +120,25 @@ pre {
  * Remove the gray background on active links in IE 10.
  */
 
-a {
+/* a {
 	background-color: transparent;
-}
+} */
 
 /**
  * 1. Remove the bottom border in Chrome 57-
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
 
-abbr[title] {
+/* abbr[title] {
 	border-bottom: none;
 	/* 1 */
-	text-decoration: underline;
+/* text-decoration: underline;
 	/* 2 */
-	text-decoration: underline dotted;
-	/* 2 */
-}
-
+/* text-decoration: underline dotted; */
+*/
+/* 2 */
+/* } */
+*/ */
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
@@ -151,15 +152,15 @@ strong {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
-
+/* 
 code,
 kbd,
 samp {
 	font-family: monospace, monospace;
-	/* 1 */
-	font-size: 1em;
-	/* 2 */
-}
+	1 */
+/* font-size: 1em; */
+/* 2 */
+/* } */
 
 .contact-us-sp {
 	font-weight: bold;
@@ -205,7 +206,7 @@ samp {
 	/* Move the text up by 20px */
 	position: relative;
 	/* Set the position to relative to enable top property */
-	top: -60px;
+	top: -95px;
 	/* Adjust the top value to move the text up */
 }
 
@@ -260,7 +261,7 @@ samp {
 	/* Move the text up by 20px */
 	position: relative;
 	/* Set the position to relative to enable top property */
-	top: -60px;
+	top: -95px;
 	/* Adjust the top value to move the text up */
 }
 
@@ -333,90 +334,83 @@ samp {
 
 
 
-/* Style the navigation bar */
-/* Style the navigation bar */
 
-.header {
+
+
+
+
+
+
+
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.menu-bar {
+	height: 120px;
+	width: 100%;
 	display: flex;
 	align-items: center;
-	/* Center vertically */
+	justify-content: space-between;
+	padding: 0 5%;
+	float: right;
+	padding-left: 700px;
 }
 
-
-nav ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	/* background-color: #333; */
+.menu-bar ul {
+	list-style: none;
 	display: flex;
-	justify-content: flex-end;
-	/* Move items to the right */
-	padding-right: 125px;
 }
 
-nav li {
-	text-align: center;
+.menu-bar ul li {
+	padding: 10px;
 	position: relative;
-	margin: 0;
-	padding: 0;
-}
-
-nav a {
-	display: block;
-	padding: 20px;
-	/* Adjust spacing between items */
-	text-decoration: none;
-	/* color: white; */
-	color: black;
-	/* Set the text color to black */
 	font-weight: bold;
-	/* Make the text bold */
-	margin: 0;
-	/* Remove vertical margin */
-	/* line-height: 0.1; */
-	/* margin-top: -5px; */
-	/* Adjust line height to move the text up */
-
-
 }
 
-/* Style the active link */
-nav a.active {
-	background-color: yellow;
+.menu-bar ul li a {
+	padding: 10px;
+	color: black;
+	text-decoration: none;
+	font-size: 15px;
 }
 
-/* Style the dropdown menu */
-.dropdown {
-	position: relative;
+/* Add a yellow underline to the active link (Title3) */
+.menu-bar ul li a.active {
+	border-bottom: 3px solid yellow;
 }
 
-.dropdown .dropbtn {
-	background-color: inherit;
-	cursor: pointer;
-}
-
-.dropdown-content {
-	display: none;
+.drop_down {
+	display: block;
 	position: absolute;
-	background-color: #9f9393;
-	z-index: 1;
-	/* line-height: 0.8;
-	margin-top: -5px; */
+	left: 0;
+	top: 100%;
+	background-color: rgb(176, 169, 169);
+	padding-right: 20px;
 }
 
-.dropdown-content a {
+.drop_down ul {
 	display: block;
-	padding: 5px;
-	/* Adjust spacing between items */
+	margin: 10px;
 }
 
-/* Display sub-menus and nested sub-menus */
-.dropdown:hover .dropdown-content,
-.dropdown:hover .sub-dropdown,
-.sub-dropdown:hover .sub-sub-dropdown {
+.drop_down ul li {
+	width: 150px;
+	padding: 10px;
+}
+
+.drop_down2 {
 	display: block;
+	position: absolute;
+	top: 0;
+	left: 150px;
+	background-color: rgb(177, 167, 167);
 }
-
 
 
 
@@ -440,15 +434,15 @@ nav a.active {
  * Add the correct font size in all browsers.
  */
 
-small {
+/* small {
 	font-size: 80%;
-}
+} */
 
 /**
  * Prevent `sub` and `sup` elements from affecting the line height in
  * all browsers.
  */
-
+/* 
 sub,
 sup {
 	font-size: 75%;
@@ -463,7 +457,7 @@ sub {
 
 sup {
 	top: -0.5em;
-}
+} */
 
 /* Embedded content
 	 ========================================================================== */
@@ -471,10 +465,10 @@ sup {
 /**
  * Remove the border on images inside links in IE 10.
  */
-
+/* 
 img {
 	border-style: none;
-}
+} */
 
 /* Forms
 	 ========================================================================== */
@@ -483,7 +477,7 @@ img {
  * 1. Change the font styles in all browsers.
  * 2. Remove the margin in Firefox and Safari.
  */
-
+/* 
 button,
 input,
 optgroup,
@@ -491,14 +485,14 @@ select,
 textarea {
 	font-family: inherit;
 	/* 1 */
-	font-size: 100%;
-	/* 1 */
-	line-height: 1.15;
-	/* 1 */
-	margin: 0;
-	/* 2 */
-}
-
+/* font-size: 100%; */
+/* 1 */
+/* line-height: 1.15; */
+/* 1 */
+/* margin: 0; */
+/* 2 */
+/* } */
+*/
 /**
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
@@ -702,7 +696,7 @@ input,
 select,
 optgroup,
 textarea {
-	color: #404040;
+	/* color: #404040; */
 	font-family: sans-serif;
 	font-size: 16px;
 	font-size: 1rem;
@@ -918,7 +912,7 @@ input[type="datetime"]:focus,
 input[type="datetime-local"]:focus,
 input[type="color"]:focus,
 textarea:focus {
-	color: #111;
+	color: #000000;
 }
 
 select {
